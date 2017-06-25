@@ -1,0 +1,65 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main.master.cs" Inherits="AspNetWithPaypal.Main" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1
+        {
+            width: 100%;
+        }
+
+        .auto-style2
+        {
+            width: 139px;
+            height: 378px;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        .auto-style3
+        {
+            height: 378px;
+        }
+
+        .auto-style4
+        {
+            height: 378px;
+        }
+        .auto-style5
+        {
+            height: 49px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+
+            <table class="auto-style1">
+                <tr>
+                    <td colspan="2" style="background-color: #CCFF99" class="auto-style5">ASP.NET - PAYPAL WITH DYNAMIC ORDERING VALUES</td>
+                </tr>
+                <tr>
+                    <td class="auto-style2" aria-orientation="horizontal" style="vertical-align: top; background-color: #FFCCCC;">LEFT MENU</td>
+                    <td class="auto-style3" style="vertical-align: top">
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="background-color: #FFCC66">
+                        <a href="#">© Copyright 2013</a> - <i>by</i> <a href="mailto:chien.vh@gmail.com?Subject=Hello">chien.vh@gmail.com</a><br />
+                        <i>Release date: 14-May-2013</i></td>
+                </tr>
+            </table>
+
+        </div>
+    </form>
+</body>
+</html>
